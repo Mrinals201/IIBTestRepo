@@ -7,7 +7,8 @@ CREATE COMPUTE MODULE postUserDetails_Compute
 		SET OutputRoot.JSON.Data.UserResponse.name =InputRoot.JSON.Data.UserInput.name;
 		SET OutputRoot.JSON.Data.UserResponse.department =InputRoot.JSON.Data.UserInput.phnNo;
 		SET OutputRoot.JSON.Data.UserResponse.salary ='100000';
-		SET OutputRoot.JSON.Data.UserResponse.dob ='24-10-1980';		
+		SET OutputRoot.JSON.Data.UserResponse.dob ='24-10-1980';	
+			
 		RETURN TRUE;
 	END;
 
